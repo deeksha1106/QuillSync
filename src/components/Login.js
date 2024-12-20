@@ -9,7 +9,6 @@ const Login = ({ setUser }) => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // Simulate successful login and redirect to documents page
     setUser('dummy_token');
     navigate('/documents');
   };
