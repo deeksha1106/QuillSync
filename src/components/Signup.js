@@ -9,7 +9,6 @@ const Signup = () => {
 
   const handleSignup = (e) => {
     e.preventDefault();
-    // Simulate successful signup and redirect to login page
     navigate('/login');
   };
 
