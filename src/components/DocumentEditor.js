@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../css/DocumentEditor.css';
 
 const DocumentEditor = ({ documentId }) => {
-  const [content, setContent] = useState(''); // Simulated initial content
+  const [content, setContent] = useState('');
 
   const handleEdit = (e) => {
     const newContent = e.target.value;
