@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import '../css/DocumentsList.css';
 
 const DocumentsList = () => {
-  // Simulated document data
   const [documents, setDocuments] = useState([
     { _id: '1', title: 'Document 1' },
     { _id: '2', title: 'Document 2' },
