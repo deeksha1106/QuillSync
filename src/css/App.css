@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: white;
+  }
+  
+  h1, h2 {
+    color: white;
+  }
+  
+  button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #b81d24;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
