@@ -14,6 +14,9 @@ const Signup = () => {
 
   return (
     <div className="auth-form">
+      <br></br>
+      <br></br>
+      <br></br>
       <h2>Signup</h2>
       <form onSubmit={handleSignup}>
         <input
