@@ -15,6 +15,9 @@ const Login = ({ setUser }) => {
 
   return (
     <div className="auth-form">
+      <br></br>
+      <br></br>
+      <br></br>
       <h2>Login</h2>
       <form onSubmit={handleLogin}>
         <input
