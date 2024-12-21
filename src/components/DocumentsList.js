@@ -10,6 +10,9 @@ const DocumentsList = () => {
 
   return (
     <div className="documents-list">
+      <br></br>
+      <br></br>
+      <br></br>
       <h1>Your Documents</h1>
       <Link to="/documents/new"><button>Create New Document</button></Link>
       <ul>
